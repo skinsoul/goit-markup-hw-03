@@ -40,7 +40,6 @@ img {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline: 15px; */
 }
 .section,
 .section-team {
@@ -87,9 +86,6 @@ img {
     padding: 24px 0 25px 0;
     border-bottom: 1px solid #ececec
 }
-/* .page-header  {
-    display: flex;
-} */
 .footer-main {
     max-width: 1600px;
     margin: 0 auto;
@@ -136,8 +132,6 @@ img {
 
 .footer-adre {
     color: var(--title-text-color);
-    /* margin: 20px 0 9px 0;
-    padding: 0; */
     margin: 0 auto;
     margin-bottom: 9px;
 }
@@ -360,25 +354,30 @@ img {
     text-align: left;
     gap: 30px;
     padding: 0;
-    border: 1px solid #eeeeee
-    
 }
 .portf-pich {
+    display: flex;
     max-width: 370px;
-    /* margin-bottom: 20px; */
-    border: none;
+    border-style: none;
 }
 .hero-portf {
+    display: flex;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-bottom: 4px;
     padding: 20px 24px 0 24px;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
 }
 .list-portf {
+    display: flex;
     font-size: 16px;
     color: var(--secondary-text-color);
     line-height: 1.88;
     letter-spacing: 0.03em;
     padding: 0 24px 20px 24px;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
 }
+
