@@ -30,7 +30,8 @@ img {
 
     /* delete list dot */
 .list,
-.button-portf {
+.button-portf,
+.list-footer {
     list-style: none;
 }
                 /* containers */
@@ -84,7 +85,7 @@ img {
     margin: 0 auto;
     max-width: 1600px;
     padding: 24px 0 25px 0;
-    border: 1px solid #ececec
+    border-bottom: 1px solid #ececec
 }
 /* .page-header  {
     display: flex;
@@ -95,6 +96,7 @@ img {
     padding: 60px 0;
     background-color: var(--background-color);
 }
+
 
 .logo {
     color: var(--basic-text-color);
@@ -231,9 +233,10 @@ img {
 }
 
 /* info section */
-
-.info-hero-sect li:not(last-child) {
-    margin-right: 30px;
+.info-hero-sect {
+    display: flex;
+    gap: 30px;
+    flex-basis: calc((100% - 90px) / 4)
 }
 .hero-info {
     margin-bottom: 10px;
@@ -356,18 +359,21 @@ img {
     flex-basis: calc((100% - 60px) / 3);
     text-align: left;
     gap: 30px;
+    padding: 0;
     border: 1px solid #eeeeee
+    
 }
 .portf-pich {
     max-width: 370px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    border: none;
 }
 .hero-portf {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
-    padding: 0 24px 0 24px;
+    padding: 20px 24px 0 24px;
 }
 .list-portf {
     font-size: 16px;
