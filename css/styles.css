@@ -44,7 +44,11 @@ img {
 .section,
 .section-team {
     margin: 0 auto;
-    padding: 94px 0;
+    padding-bottom: 94px;
+}
+.info-hero-sect,
+.section-team {
+    padding-top: 94px;
 }
 .container .list {
     display: flex;
@@ -74,7 +78,8 @@ img {
     gap: 8px;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-top: 94px;
+    margin-bottom: 50px;
 }
 
 /* header */
@@ -236,7 +241,6 @@ img {
     text-transform: uppercase;
 }
 .hero-text {
-    margin-bottom: 94px;
     max-width: 270px;
     font-size: 14px;
     color: var(--secondary-text-color);
