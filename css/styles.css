@@ -44,7 +44,6 @@ img {
 .section,
 .section-team {
     margin: 0 auto;
-    max-width: 1600px;
     padding: 94px 0;
 }
 .container .list {
@@ -82,12 +81,10 @@ img {
     /* logo style */
 .page-header {
     margin: 0 auto;
-    max-width: 1600px;
     padding: 24px 0 25px 0;
     border-bottom: 1px solid #ececec
 }
 .footer-main {
-    max-width: 1600px;
     margin: 0 auto;
     padding: 60px 0;
     background-color: var(--background-color);
@@ -190,7 +187,6 @@ img {
 /* main section */
 .primary-section {
     padding: 200px 0;
-    max-width: 1600px;
     margin: 0 auto;
     text-align: center;
     background-color: var(--background-color);
